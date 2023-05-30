@@ -14,6 +14,65 @@ The code follows the Interface Segregation Principle (ISP) by using a MovieServi
 ## App Architecture:
 The architecture used here is protocol-oriented programming (MVVM-R) which is a popular choice for Swift projects.
 
+# Project Structure
+
+- **MovieMuse/**
+  - **Base.lproj/**
+  - **Core Data/**
+    - CoreDataManager.swift
+    - Favorite+CoreDataClass.swift
+    - Favorite+CoreDataProperties.swift
+    - **MovieMuse.xcdatamodeld/**
+      - **MovieMuse.xcdatamodel/**
+  - **Models/**
+    - Movie.swift
+  - **Resources/**
+    - **Assets.xcassets/**
+      - **AccentColor.colorset/**
+      - **AppIcon.appiconset/**
+      - **Colors/**
+        - **CellBIG.colorset/**
+        - **Deep Pink.colorset/**
+        - **Light Gray.colorset/**
+        - **Star Rating color.colorset/**
+        - **Title.colorset/**
+        - **White.colorset/**
+        - **Yellow.colorset/**
+        - **gradientMid.colorset/**
+        - **gradientfrom.colorset/**
+        - **gradiento.colorset/**
+      - **comingsoon.imageset/**
+  - **Routers/**
+    - MovieListRouter.swift
+  - **Services/**
+    - MovieService.swift
+    - NetworkError.swift
+    - NetworkManager.swift
+    - ServiceManager.swift
+  - **Supporting Files/**
+    - AppDelegate.swift
+    - SceneDelegate.swift
+  - **Utilities/**
+    - Common + Helper.swift
+    - ReachabilityManager.swift
+  - **ViewModels/**
+    - MovieDetailViewModel.swift
+    - MovieListViewModel.swift
+  - **Views/**
+    - **Base.lproj/**
+    - MovieDetailViewController.swift
+    - MovieListCell.swift
+    - MovieListViewController.swift
+    - TiltedFlowLayout.swift
+    - ViewController.swift
+- **MovieMuse.xcodeproj/**
+  - **project.xcworkspace/**
+    - *MovieMuseTests/**
+- - MovieMuseTests.swift
+- **MovieMuseUITests/**
+  - MovieMuseUITests.swift
+  - MovieMuseUITestsLaunchTests.swift
+
 ## UI and Non-UI Separation:
 The MovieService protocol separates non-UI related network calls from UIViewController classes. UIViewController classes can use this protocol without knowing the implementation details, thereby fulfilling point 4.
 
