@@ -1,0 +1,23 @@
+./MovieMuse/Routers/MovieListRouter.swift
+./MovieMuse/ViewModels/MovieListViewModel.swift
+./MovieMuse/ViewModels/MovieDetailViewModel.swift
+./MovieMuse/Core Data/CoreDataManager.swift
+./MovieMuse/Core Data/Favorite+CoreDataProperties.swift
+./MovieMuse/Core Data/Favorite+CoreDataClass.swift
+./MovieMuse/Models/Movie.swift
+./MovieMuse/Utilities/ReachabilityManager.swift
+./MovieMuse/Utilities/Common + Helper.swift
+./MovieMuse/Supporting Files/AppDelegate.swift
+./MovieMuse/Supporting Files/SceneDelegate.swift
+./MovieMuse/Views/ViewController.swift
+./MovieMuse/Views/MovieListViewController.swift
+./MovieMuse/Views/TiltedFlowLayout.swift
+./MovieMuse/Views/MovieListCell.swift
+./MovieMuse/Views/MovieDetailViewController.swift
+./MovieMuse/Services/NetworkManager.swift
+./MovieMuse/Services/ MovieService.swift
+./MovieMuse/Services/ServiceManager.swift
+./MovieMuse/Services/NetworkError.swift
+./MovieMuseTests/MovieMuseTests.swift
+./MovieMuseUITests/MovieMuseUITestsLaunchTests.swift
+./MovieMuseUITests/MovieMuseUITests.swift

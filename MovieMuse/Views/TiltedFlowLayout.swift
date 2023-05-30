@@ -10,7 +10,6 @@ import UIKit
 
 // Custom UICollectionViewFlowLayout subclass.
 class TiltedFlowLayout: UICollectionViewFlowLayout {
-    let activeDistance: CGFloat = 100
     let zoomFactor: CGFloat = 0.5
     let minimumLineSpacingValue: CGFloat = 8
     var itemSizeRatio: CGFloat
